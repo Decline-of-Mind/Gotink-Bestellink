@@ -2,8 +2,6 @@
     margin: 2px;
     background-color: rgb(120,0,0);
     color: white;
-    width: 100%;
-    height: 75px;
 }
 
 .red-bg {
@@ -17,10 +15,10 @@
     height: 100%;
 }
 
-.side-bar {
+/* .side-bar {
     padding-top: 15px;
     padding-right: 13px;
-}
+} */
 
 .quant-width {
     width: 25pt;
