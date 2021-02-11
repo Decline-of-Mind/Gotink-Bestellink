@@ -4,21 +4,26 @@
     color: white;
 }
 
+.main-btn {
+    min-height: 65px;
+}
+
+
+.red-btn:hover,
+.red-btn:active,
+.red-btn:focus {
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(120,0,0);
+}
+
 .red-bg {
     background-color:  rgb(120,0,0);
-}
-.gray-bg {
-    background-color: gray;
 }
 
 .app-body {
     height: 100%;
 }
-
-/* .side-bar {
-    padding-top: 15px;
-    padding-right: 13px;
-} */
 
 .quant-width {
     width: 25pt;
