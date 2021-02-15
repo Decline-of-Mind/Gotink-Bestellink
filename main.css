@@ -21,6 +21,14 @@
     background-color:  rgb(120,0,0);
 }
 
+.white-bg {
+    background-color: white;
+}
+
+.bestel-heading {
+    z-index: 777;
+}
+
 .app-body {
     height: 100%;
 }
