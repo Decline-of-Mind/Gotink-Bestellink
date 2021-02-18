@@ -8,8 +8,3 @@
                 $(this).text("Ik wil deze dag geen maaltijden");
         }
     });
-
-
-// .css('display','flex'))
-// .css('display','none');
-// .css('display', 'flex');
