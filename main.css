@@ -8,6 +8,12 @@ body {
     color: white;
 }
 
+.white-btn {
+    margin: 2px;
+    background-color: white;
+    color: black;
+}
+
 .main-btn {
     min-height: 65px;
 }
@@ -21,12 +27,28 @@ body {
     border: 1px solid rgb(120,0,0);
 }
 
+.white-btn:hover,
+.white-btn:active,
+.white-btn:focus {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
 .red-bg {
     background-color:  rgb(120,0,0);
 }
 
+.red-border {
+    border: 2px solid rgb(120,0,0);
+}
+
 .white-bg {
     background-color: white;
+}
+
+.white-color {
+    color: white;
 }
 
 .bestel-heading {
@@ -61,12 +83,6 @@ body {
 }
 
 /*              WMS                    */
-
-/* Custom Radio (Fancy Radio Box) */
-/* .frb-group {
-	margin: 15px 0;
-} */
-
 .frb ~ .frb {
 	margin-top: 15px;
 }
@@ -131,11 +147,3 @@ body {
 .frb input[type="radio"]:empty:checked ~ label span.frb-description {
 	color: white;
 }
-
-/* .frb input[type="radio"]:empty:checked ~ label span.frb-title {
-	color: white;
-} */
-
-/* .frb.frb-default input[type="radio"]:empty:checked ~ label span.frb-description {
-	color: white;
-} */
